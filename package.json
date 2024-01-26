@@ -3,7 +3,7 @@
   "version": "3.4.1",
   "description": "Extension for making discord speech recognition bots.",
   "main": "./index.js",
-  "types": "./index.d.ts",
+  "type": "module",
   "scripts": {
     "dev": "nodemon index.js",
     "watch": "tsc -w",
