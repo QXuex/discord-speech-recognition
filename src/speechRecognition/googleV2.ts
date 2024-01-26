@@ -20,7 +20,7 @@ function getGoogleRequestOptions(
   options?: GoogleSpeechV2Options
 ): AxiosRequestConfig {
   let key = "AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw";
-  let lang = "en-US";
+  let lang = "de-DE";
   let profanityFilter = "1"; // Google's default
 
   if (options) {
